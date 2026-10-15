@@ -1,0 +1,15 @@
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+config/api-config.php
+**/api-config.php
+
+# Registros y correos privados
+*.log
+*.eml
+
+# Claves y dependencias
+*.pem
+*.key
+vendor/
